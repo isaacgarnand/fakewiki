@@ -1,0 +1,56 @@
+.container{
+ height: 100%;
+ width: 100%
+}
+.ericneedsflex{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between 
+    
+}
+.sidebar{
+    background: black;
+    width: 15%;
+    height: 100%
+}
+
+.main{
+    width: 84%;
+   margin: 2vh 0 0 0;
+}
+
+.topbar{
+display: flex;
+justify-content: space-between;
+width: 100%
+}
+
+.firstrow {
+    height: 11vh;
+    text-align: center;
+}
+
+.secondrow {
+    height: 40vh;
+    overflow: auto;
+}
+
+.thirdrow {
+    height: 34vh;
+}
+
+.thirdrow img {
+    width: 27%;
+    float: left;
+}
+
+.thirdrow p {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.fourthrow {
+    height: 45vh;
+}
